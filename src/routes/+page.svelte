@@ -5,4 +5,7 @@
 	<a class="rounded-md bg-orange-500 p-4 font-semibold text-white" href="/temp-converter"
 		>Temperature Converter</a
 	>
+	<a class="rounded-md bg-yellow-500 p-4 font-semibold text-white" href="/flight-booker"
+		>Flight Booker</a
+	>
 </main>

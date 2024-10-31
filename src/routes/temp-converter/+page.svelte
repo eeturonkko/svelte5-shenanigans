@@ -34,7 +34,7 @@
 			<div class="my-10 flex gap-4 text-nowrap drop-shadow-xl">
 				<input
 					bind:value={temperature.c}
-					class="max-w-32 rounded border"
+					class="max-w-32 rounded border pl-1"
 					name="celcius"
 					id="celcius"
 					type="text"
@@ -42,12 +42,12 @@
 				<label class="font-semibold" for="celcius">Celsius =</label>
 				<input
 					bind:value={temperature.f}
-					class="max-w-32 rounded border"
+					class="max-w-32 rounded border pl-1"
 					name="fahrenheit"
 					id="fahrenheit"
 					type="text"
 				/>
-				<label class="font-semibold" for="celcius">Fahrenheit</label>
+				<label class="font-semibold" for="fahrenheit">Fahrenheit</label>
 			</div>
 
 			<a class="max-w-16 rounded bg-white p-2 font-semibold text-black" href="/">Home</a>
