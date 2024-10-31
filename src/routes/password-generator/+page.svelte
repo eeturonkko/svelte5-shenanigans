@@ -9,6 +9,7 @@
 		for (let i = 0; i < length; i++) {
 			password += charset.charAt(Math.floor(Math.random() * charset.length));
 		}
+		length = 0;
 		return password;
 	}
 </script>
