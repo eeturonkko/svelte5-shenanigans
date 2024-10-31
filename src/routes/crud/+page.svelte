@@ -125,5 +125,6 @@
 				>
 			</div>
 		</div>
+		<a class="rounded bg-white p-2 font-semibold text-black" href="/">Home</a>
 	</section>
 </main>
