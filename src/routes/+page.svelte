@@ -27,5 +27,6 @@
 		<a class="rounded-md bg-red-500 text-center font-semibold text-white" href="/bmi-calculator"
 			>BMI Calculator</a
 		>
+		<a class="rounded-md bg-indigo-500 text-center font-semibold text-white" href="/todo">Todo</a>
 	</div>
 </main>

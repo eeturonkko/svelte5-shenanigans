@@ -1,38 +1,30 @@
-# sv
+# Svelte 5 Shenanigans
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Look i love svelte, maybe even too much. This project contains bunch of widgets made with svelte. Svelte 5 brought a lot of new features and improvements. I wanted to try them out and make some widgets with them.
 
-## Creating a project
+## Widgets
 
-If you're seeing this, you've probably already done this step. Congrats!
+- BMI Calculator
+- Counter
+- Todo List
+- CRUD App
+- Password Generator
+- Temperature Converter
 
-```bash
-# create a new project in the current directory
-npx sv create
+## How to run
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. Clone the repo
+2. Run `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Run `npm run dev`
 
-## Developing
+## How to build
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+To Create a production build:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with npm run preview.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Made with ❤️ by [Eetu Rönkkö](https://www.eeturonkko.com)
