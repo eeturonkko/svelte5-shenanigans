@@ -1,11 +1,20 @@
-<main class="container mx-auto mt-12 h-screen max-w-xl space-y-8 text-center">
+<main class="ext-center container mx-auto mt-12 h-screen max-w-xl space-y-8">
 	<h1 class="mb-6 text-xl font-bold">Welcome to SvelteKit challenges</h1>
-	<a class="rounded-md bg-green-500 p-4 font-semibold text-white" href="/counter">Counter</a>
-	<a class="rounded-md bg-blue-500 p-4 font-semibold text-white" href="/crud">CRUD</a>
-	<a class="rounded-md bg-orange-500 p-4 font-semibold text-white" href="/temp-converter"
-		>Temperature Converter</a
-	>
-	<a class="rounded-md bg-yellow-500 p-4 font-semibold text-white" href="/flight-booker"
-		>Flight Booker</a
-	>
+	<div class="grid grid-cols-3 place-content-center gap-4">
+		<a class="rounded-md bg-green-500 text-center font-semibold text-white" href="/counter"
+			>Counter</a
+		>
+		<a class="rounded-md bg-blue-500 text-center font-semibold text-white" href="/crud">CRUD</a>
+		<a class="rounded-md bg-orange-500 text-center font-semibold text-white" href="/temp-converter"
+			>Temperature Converter</a
+		>
+		<a class="rounded-md bg-yellow-500 text-center font-semibold text-white" href="/flight-booker"
+			>Flight Booker</a
+		>
+		<a
+			class="rounded-md bg-purple-500 text-center font-semibold text-white"
+			href="/password-generator
+    ">Password Generator</a
+		>
+	</div>
 </main>
