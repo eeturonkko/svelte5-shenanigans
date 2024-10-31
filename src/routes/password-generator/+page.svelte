@@ -20,7 +20,7 @@
 		<div class="max-w- flex flex-col border">
 			<h2 class="mb-2 font-semibold">Password Generator</h2>
 			<input bind:value={length} type="range" min="0" max="24" class="max-w-xs" />
-			<p class="font-semibold">Password lenght: {length}</p>
+			<p class="font-semibold">Password length: {length}</p>
 
 			<button class="my-4 max-w-24 rounded bg-white px-5 font-semibold" onclick={generatePassword}
 				>Generate</button
